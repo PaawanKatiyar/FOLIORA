@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import 'tailwindcss';
+
+.fancy{
+  font-family: "Cinzel" , sans-serif;
+  font-weight: 600;
+}
+
+.logo{
+  font-family: "Playfair Display" , sans-serif;
+  font-weight: 500;
+}
+
+.nav-font{
+  font-family: "Montserrat" , sans-serif;
+  font-weight: 500;
+}
+
+.head-font{
+  font-family: "Playfair Display" , sans-serif;
+  font-weight: 400;
+}
+
+.sub-font{
+  font-family: "Montserrat" , sans-serif;
+  font-weight: 400;
+}
+
+.body-font{
+  font-family: "Lora" , sans-serif;
+  font-weight: 400;
+}
+
+.date-font{
+  font-family: "Birthstone" , sans-serif;
+  font-weight: 400;
+}
