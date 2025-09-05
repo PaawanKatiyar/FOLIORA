@@ -3,7 +3,7 @@ const Review = () => {
     <section className = "bg-[#ECECE7] px-12 py-12">
       <div className = "flex justify-center gap-20 items-center">
         <div>
-          <img className = "h-150 w-auto" src="/images/post/71Ge374aXuL._UF1000,1000_QL80_.jpg" alt=""/>
+          <img className = "h-150 w-auto" src="/images/71Ge374aXuL._UF1000,1000_QL80_.jpg" alt=""/>
         </div>
         <div>
           <h3 className = "text-6xl head-font">BOOK REVIEWS</h3>
