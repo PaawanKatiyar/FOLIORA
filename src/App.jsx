@@ -1,24 +1,17 @@
-import Navbar from './Navbar.jsx';
-import Hero from './Hero.jsx';
-import Post from './Post.jsx';
-import Quote from './Quote.jsx';
-import Review from './Review.jsx';
-import Letter from './Letter.jsx';
-import Footer from './Footer.jsx';
-import Copyright from './Copyright.jsx'
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Navbar from './Component/Navbar.jsx';
+import Home from './Component/Home.jsx';
 
 const App = () => {
   return (
-    <>
+    <Router>
       <Navbar/>
-      <Hero/>
-      <Post/>
-      <Quote/>
-      <Review/>
-      <Letter/>
-      <Footer/>
-      <Copyright/>
-    </>
+      <main>
+        <Routes>
+          <Route path = "/" element = {<Home/>} />
+        </Routes>
+      </main>
+    </Router>
   );
 }
 
