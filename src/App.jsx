@@ -8,6 +8,8 @@ import Classic from './Component/Classic.jsx';
 import DA from './Component/DA.jsx';
 import Mystery from './Component/Mystery.jsx';
 import Scroll from './Component/Scroll.jsx';
+import Footer from './Component/Footer.jsx';
+import Copyright from './Component/Copyright.jsx';
 
 
 
@@ -27,6 +29,8 @@ const App = () => {
           <Route path = "/Mystery" element = {<Mystery/>} />
         </Routes>
       </main>
+      <Footer/>
+      <Copyright/>
     </Router>
   );
 }
