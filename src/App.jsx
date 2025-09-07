@@ -7,12 +7,14 @@ import YA from './Component/YA.jsx';
 import Classic from './Component/Classic.jsx';
 import DA from './Component/DA.jsx';
 import Mystery from './Component/Mystery.jsx';
+import Scroll from './Component/Scroll.jsx';
 
 
 
 const App = () => {
   return (
     <Router>
+      <Scroll/>
       <Navbar/>
       <main>
         <Routes>

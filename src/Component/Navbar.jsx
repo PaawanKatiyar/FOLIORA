@@ -4,9 +4,11 @@ const Navbar = () => {
   return(
     <section className = "px-6 py-6 bg-[#D9D9D4]">
       <div className = "flex justify-between">
-        <Link to = "/">
-          <h1 className = "logo text-4xl text-stone-900 ml-4">FOLIORA</h1>
-        </Link>
+        <div className = "flex">
+          <Link to = "/">
+            <h1 className = "logo text-4xl text-stone-900 ml-4">FOLIORA</h1>
+          </Link>
+        </div>
         <div className = "nav-font flex px-6 items-center">
           <Link to = "/">
             <p className = "text-sm m-4 text-stone-600 hover:text-stone-900">HOME</p>
