@@ -3,7 +3,6 @@ import Post from './Post.jsx';
 import Quote from './Quote.jsx';
 import Review from './Review.jsx';
 import Letter from './Letter.jsx';
-import Footer from './Footer.jsx';
 
 const Home = () => {
   return (
@@ -13,7 +12,6 @@ const Home = () => {
       <Quote/>
       <Review/>
       <Letter/>
-      <Footer/>
     </>
   )
 }
